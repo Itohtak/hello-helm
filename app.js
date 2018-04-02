@@ -19,8 +19,8 @@ var PORT = 80;
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Welcome to Bluemix DevOps with Docker, Kubernetes and Helm Charts. Lets go use the Continuous Delivery Service!');
+  res.send('Welcome to IBM Continuous Service with Docker, Kubernetes and Helm Charts!!');
 });
 
-app.listen(PORT)
+app.listen(PORT);
 console.log(' Application Running on port' + PORT);
