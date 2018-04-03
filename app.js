@@ -19,7 +19,7 @@ var PORT = 80;
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Welcome to IBM Continuous Service with Docker, Kubernetes and Helm Charts!!');
+  res.send('Hello Ricoh smart office!!');
 });
 
 app.listen(PORT);
