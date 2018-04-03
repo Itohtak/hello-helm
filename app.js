@@ -19,7 +19,7 @@ var PORT = 80;
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello Ricoh smart office!!');
+  res.send('Hello Ricoh smart office 2!!');
 });
 
 app.listen(PORT);
