@@ -19,7 +19,7 @@ var PORT = 80;
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello Kubernetes!');
+  res.send('Hello Toshiba Tech!');
 });
 
 app.listen(PORT);
